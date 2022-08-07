@@ -1,4 +1,7 @@
-var e_id=999 
+'use strict';
+
+
+/* var e_id=999 
 const employee1={
     employeeId:0,
     fullName:"Ghazi Samer",
@@ -160,3 +163,5 @@ const employee7={
 }
 console.log(`Employee name: ${employee7.fullName}`)
 employee7.gSalary()
+ */
+
