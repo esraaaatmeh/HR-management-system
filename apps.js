@@ -40,7 +40,7 @@ Employee.prototype.render=function(){
 
 
 const Ghazi= new Employee("Ghazi Samer","Administration","Senior","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0svRFB95ugOv67zhZul7Ibi8duiXYIlly_A&usqp=CAU");
-const Lana= new Employee('Lana Al',"Finance","Senior","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEE3v6PjkC5WIiVylxtAp_q0hiUa8PB1kH5A&usqp=CAU");
+const Lana= new Employee('Lana Ali',"Finance","Senior","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEE3v6PjkC5WIiVylxtAp_q0hiUa8PB1kH5A&usqp=CAU");
 const Tamara=new Employee("Tamara Ayoub","Marketing","Senior","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmhW-XoDm3NCHOTYL0etUjliui1Ot6meItbA&usqp=CAU");
 const Saif=new Employee("Safi Walid","Administration","Mid-Senior","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdf5FOnbXMq0AegJxGDPQRmBXGS6n5BHRBhA&usqp=CAU");
 const Omar=new Employee("Omar Zaid","Development","Senior","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Ng3fEtx3duplwqFocE3nY2mnFH1MHDWVYA&usqp=CAU");
