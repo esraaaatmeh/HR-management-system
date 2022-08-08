@@ -1,5 +1,5 @@
 'use strict';
-
+const body=document.getElementsByClassName('maincontainer')
 var e_id=999;
 var salary=0;
 const allemployee=[];
@@ -31,11 +31,36 @@ function Employee(fullName,department,level,imageurl){
         return salary}
 
 }
+
+
 Employee.prototype.render=function(){
-    document.write(`<br>
-                    <h1>Employee name: ${this.fullName }</h1>
-                    <h1>Department: ${this.department}</h1>
-                    <h1>Employee salary: ${this.salary()}</h1>`)
+    // document.write(`<br>
+    //                 <h1>Employee name: ${this.fullName }</h1>
+    //                 <h1>Department: ${this.department}</h1>
+    //                 <h1>Employee salary: ${this.salary()}</h1>`)
+    const div=document.createElement('div');
+    body[0].appendChild(div);
+
+    const imgEl=document.createElement('img');
+    imgEl.src=this.imageurl;
+    imgEl.alt=this.fullName;
+    div.appendChild(imgEl);
+    const h1El=document.createElement('h1');
+    h1El.textContent=`Name : ${this.fullName}`;
+    div.appendChild(h1El);
+    const h1El1=document.createElement('h1');
+    h1El1.textContent=`Department : ${this.department}`;
+    div.appendChild(h1El1);
+    const h1El2=document.createElement('h1');
+    h1El2.textContent=`Level : ${this.level}`;
+    div.appendChild(h1El2);
+    const h1El3=document.createElement('h1');
+    h1El3.textContent=`Salary : ${this.salary()}`;
+    div.appendChild(h1El3);
+    div.classList.add("card")
+
+
+
 };
 
 
@@ -53,3 +78,5 @@ Saif.render();
 Omar.render();
 Rana.render();
 Hadi.render();
+
+
